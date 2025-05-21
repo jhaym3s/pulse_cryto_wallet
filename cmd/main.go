@@ -1,6 +1,8 @@
 import (
 	"github.com/gin-gonic/gin"
 	"log"
+	"internal/db"
+    "internal/handler"
 )
 
 func main() {
