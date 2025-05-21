@@ -45,3 +45,4 @@ func GetWalletByUserID(userID string) (*models.WalletResponse, error) {
     }
     return &w, nil
 }
+
