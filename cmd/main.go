@@ -1,4 +1,7 @@
-
+import (
+	"github.com/gin-gonic/gin"
+	"log"
+)
 
 func main() {
     db.InitDB()
