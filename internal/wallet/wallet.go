@@ -15,9 +15,9 @@ func CreateWallet(c *gin.Context) {
         return
     }
 
-    existing, err := db.GetWalletByUserID(req.UserID)
-    if err == nil && existing != nil {
-        c.JSON(http.StatusOK, existing)
+    existingWallet, err := db.GetWalletByUserID(req.UserID)
+    if err == nil && existingWallet != nil {
+        c.JSON(http.StatusOK, existingWallet)
         return
     }
 
@@ -35,3 +35,4 @@ func CreateWallet(c *gin.Context) {
 
     c.JSON(http.StatusOK, wallet)
 }
+
