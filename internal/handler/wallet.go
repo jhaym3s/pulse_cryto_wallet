@@ -2,9 +2,9 @@ package handler
 
 import (
     "net/http"
-    "wallet-service/models"
-    "wallet-service/internal/wallet"
-    "wallet-service/internal/db"
+    "models"
+    "internal/wallet"
+    "internal/db"
     "github.com/gin-gonic/gin"
 )
 
