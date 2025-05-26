@@ -17,7 +17,7 @@ func GenerateWalletAddress() (string, *ecdsa.PrivateKey, error) {
 
 
 /*
-		package wallet
+	package wallet
 
 import (
     "crypto/ecdsa"
